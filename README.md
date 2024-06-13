@@ -9,6 +9,13 @@ after login user redirect the home screen
 
 ![image](https://github.com/karanbaghel/Todo/assets/96646893/a0cfdacf-9283-4719-b7d6-86d30ea14747)
 
+after that data save in the database
+
+![image](https://github.com/karanbaghel/Todo/assets/96646893/0b29ef58-d738-4b37-83d0-70771cbf7955)
+
+important note==
+click on the edit button and delete button user can easy delte the data
+
 
 
 

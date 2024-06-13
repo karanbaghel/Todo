@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+  
+  .white-box {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  h4.font-weight-bold {
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-text {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .btn-block {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+  }
+  
+  @media (max-width: 768px) {
+    .white-box {
+      padding: 20px;
+      max-width: 90%;
+    }
+  
+    .form-control {
+      padding: 8px;
+    }
+  
+    .btn-primary,
+    .btn-secondary {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .login-section {
+      padding: 0 15px;
+      justify-content: center;
+    }
+  
+    .white-box {
+      padding: 15px;
+      max-width: 100%;
+    }
+  
+    .form-control {
+      padding: 6px;
+    }
+  
+    .btn-primary,
+    .btn-secondary {
+      padding: 6px;
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .login-section {
+      padding: 0 10px;
+    }
+  
+    .white-box {
+      padding: 10px;
+      max-width: 100%;
+    }
+  
+    .form-control {
+      padding: 5px;
+    }
+  
+    .btn-primary,
+    .btn-secondary {
+      padding: 5px;
+      font-size: 12px;
+    }
+  }
+  

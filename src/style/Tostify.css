@@ -1,0 +1,21 @@
+/* customToast.css */
+.Toastify__toast-container {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation-duration: 0.5s; /* Set the animation duration to be less */
+  }
+  
+  .Toastify__bounce-enter--bottom-center,
+  .Toastify__bounce-enter--top-center {
+    animation-name: Toastify__bounceIn;
+    animation-duration: 0.5s; /* Set the enter animation duration */
+  }
+  
+  .Toastify__bounce-exit--bottom-center,
+  .Toastify__bounce-exit--top-center {
+    animation-name: Toastify__bounceOut;
+    animation-duration: 0.5s; /* Set the exit animation duration */
+  }
+  
+  

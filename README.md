@@ -5,6 +5,11 @@ after that he or she can login
 
 ![image](https://github.com/karanbaghel/Todo/assets/96646893/71150322-b98a-4c1d-aa3d-6b4dd22352ef)
 
+after login user redirect the home screen
+
+![image](https://github.com/karanbaghel/Todo/assets/96646893/a0cfdacf-9283-4719-b7d6-86d30ea14747)
+
+
 
 
 
